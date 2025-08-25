@@ -7,12 +7,28 @@ import {
   Code,
   Database,
   Server,
-  ShieldCheck,
+  Workflow,
 } from "lucide-react";
 import Image from "next/image";
 
 export default function About() {
   const skills = [
+    {
+      icon: <Workflow className="w-8 h-8 text-orange-500" />,
+      title: "AI Automation & Workflows",
+      description: "n8n · Microsoft Power Automate · Supabase Functions · Custom API Integrations",
+    },
+    {
+      icon: <BrainCircuit className="w-8 h-8 text-red-500" />,
+      title: "AI & ML",
+      description:
+        "TensorFlow, PyTorch, OpenAI, Chatbots, NLP, Computer Vision",
+    },
+    {
+      icon: <Cloud className="w-8 h-8 text-cyan-500" />,
+      title: "Cloud & DevOps",
+      description: "AWS, Microsoft Azure, Docker, CI/CD",
+    },
     {
       icon: <Code className="w-8 h-8 text-blue-500" />,
       title: "Frontend",
@@ -27,22 +43,6 @@ export default function About() {
       icon: <Database className="w-8 h-8 text-purple-500" />,
       title: "Database",
       description: "MongoDB, MySQL, PostgreSQL",
-    },
-    {
-      icon: <BrainCircuit className="w-8 h-8 text-red-500" />,
-      title: "AI & ML",
-      description:
-        "TensorFlow, PyTorch, OpenAI, Chatbots, NLP, Computer Vision",
-    },
-    {
-      icon: <Cloud className="w-8 h-8 text-cyan-500" />,
-      title: "Cloud & DevOps",
-      description: "AWS, Microsoft Azure, Docker, CI/CD",
-    },
-    {
-      icon: <ShieldCheck className="w-8 h-8 text-orange-500" />,
-      title: "Network & Security",
-      description: "Network-designing, Routing, Switching, VPNs, Cybersecurity",
     },
   ];
 
@@ -70,17 +70,19 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-              I'm a <b>Software Engineer & AI Specialist</b> passionate about 
-              <b>building intelligent, scalable, and secure solutions</b>. With
-              expertise in <b>Full-Stack Development, Cloud Computing, and
-              IT Management</b>, I thrive on solving complex challenges and
-              optimizing performance.
-            </p>
-            <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              I specialize in <b>AI-powered applications, cloud-native systems,
-              and secure IT infrastructures</b>, always exploring new ways to
-              enhance efficiency and automation. Let’s innovate together.
-            </p>
+            I’m a <b>Software Engineer & AI Specialist</b> passionate about 
+            building <b>intelligent, scalable, and secure systems</b>. 
+            Currently contributing at <b>Gosign GmbH (Germany)</b>, I’ve worked 
+            on projects ranging from <b>AI chatbots and workflow automation</b> 
+            to <b>computer vision models</b> that transform real-world processes.
+          </p>
+          <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+            My expertise spans <b>Full-Stack Development, Cloud Computing, and AI-driven solutions</b>. 
+            I thrive on solving complex challenges, streamlining workflows, 
+            and <b>optimizing performance with automation</b>. 
+            Always exploring what’s next in <b>AI, cloud, and intelligent systems</b>—let’s build the future together.
+          </p>
+
           </motion.div>
           <motion.div
             className="md:w-1/2 grid grid-cols-2 gap-6"

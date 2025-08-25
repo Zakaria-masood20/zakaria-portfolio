@@ -8,15 +8,16 @@ import { motion } from "framer-motion"
 export default function Education() {
   const education = [
     {
-      degree: "Bachelor's Degree in Information Technology",
+      degree: "Bachelor of Science in Information Technology (BSIT)",
       institution: "University of Sargodha",
       period: "2020 – 2024",
       achievements: [
-        "Graduated with honors",
-        "Specialized in Web Technologies, Artificial Intelligence and Network Design and Security",
-        "Completed capstone project on 'Gait Recognition Research Using Machine Learning for Covered Body Attire'",
+        "Specialized across key domains: Web Development, Artificial Intelligence, IoT Systems, Network Design & Cybersecurity, and System Administration",
+        "Led final year research on AI-based biometric gait recognition, achieving 98% accuracy for covered body attire",
+        "Designed and implemented enterprise-level network infrastructures, focusing on secure routing, switching, and VPN solutions",
+        "Worked on IoT-driven prototypes combining hardware integration with cloud services for real-time data processing",
       ],
-    },
+    },    
   ]
 
   return (

@@ -24,47 +24,25 @@ const featuredProjects = [
   {
     title: "Custom Chat-Bot",
     description:
-      "AI-powered chatbot using Node.js, Next.js, and Azure Entra-ID",
-    tech: ["Next.js", "Node.js", "PostgreSQL", "Azure", "Supabase", "NLP"],
+      "Developed a cross-platform AI-powered chatbot platform with Node.js & Next.js, secured by Azure Entra ID. Supports multiple AI models for text, image, and video processing, with features like Deep Search, letterhead generation, dynamic workflows, and automated delivery. Designed for enterprise-scale customer interaction and workflow automation.",
+    tech: ["Next.js", "Node.js", "PostgreSQL", "Azure Bot Services", "Supabase", "NLP", "AI Automation"],
     image:
-      "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070",
+      "/gosign-chat.png",
     live: "https://www.gosign.de/ai-assistenten/",
-    repo: "#",
+    repo: "https://github.com/Zakaria-masood20",
     color: "text-blue-500",
-  },
+  },  
   {
     title: "Gait Recognition Research",
     description:
-      "AI-based biometric gait recognition system for individuals in covered body attire, achieving 98% accuracy.",
-    tech: ["Machine Learning", "Random Forest", "Decision Tree", "Python"],
+      "Developed an AI-powered biometric system that identifies individuals by gait even under covered body attire. Built a custom multi-angle video dataset, extracted landmarks with Mediapipe, and trained Decision Tree & Random Forest classifiers. Achieved 98% accuracy, proving gait as a reliable alternative to facial recognition.",
+    tech: ["Machine Learning", "Mediapipe", "Random Forest", "Decision Tree", "Python"],
     image:
-      "https://images.unsplash.com/photo-1517777811156-8107dd473aca?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG1hY2hpbmUlMjBsZWFybmluZyUyMGdhaXQlMjBhbmFseXNpcyUyMHVzaW5nJTIwYm9keSUyMGxhbmRtYXJrc3xlbnwwfHwwfHx8MA%3D%3D",
+      "/Gait Recognition research Banner.jpg",
     live: "https://drive.google.com/file/d/1Hb3cz6DTV-jVhgVeZ05IDTa6VGkam4Qh/view?usp=sharing",
-    repo: "#",
+    repo: "https://github.com/Zakaria-masood20/gait-recognition-covered-attire",
     color: "text-orange-500",
-  },
-  // {
-  //   title: "Custom Chat-Bot",
-  //   description:
-  //     "AI-powered chatbot using Node.js, Next.js, and Azure Entra-ID",
-  //   tech: ["Next.js", "Node.js", "PostgreSQL", "Azure", "Supabase", "NLP"],
-  //   image:
-  //     "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070",
-  //   live: "https://www.gosign.de/ai-assistenten/",
-  //   repo: "#",
-  //   color: "text-blue-500",
-  // },
-  // {
-  //   title: "Gait Recognition Research",
-  //   description:
-  //     "AI-based biometric gait recognition system for individuals in covered body attire, achieving 98% accuracy.",
-  //   tech: ["Machine Learning", "Random Forest", "Decision Tree", "Python"],
-  //   image:
-  //     "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070",
-  //   live: "https://drive.google.com/file/d/1Hb3cz6DTV-jVhgVeZ05IDTa6VGkam4Qh/view?usp=sharing",
-  //   repo: "#",
-  //   color: "text-orange-500",
-  // },
+  }  
 ];
 
 export default function FeaturedWork() {
@@ -196,7 +174,7 @@ export default function FeaturedWork() {
                     href={project.live}
                     className="text-blue-600 dark:text-blue-400 flex items-center gap-1"
                   >
-                    Live Demo <ExternalLink className="w-4 h-4" />
+                    Demo <ExternalLink className="w-4 h-4" />
                   </a>
                   <a
                     href={project.repo}

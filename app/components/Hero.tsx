@@ -65,12 +65,10 @@ export default function Hero() {
               Muhammad Zakaria Masood
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-700 dark:text-gray-300">
-              Full-Stack Developer | AI & Cloud Specialist | IT Enthusiast
+            Software Engineer | AI & Automation Specialist | Cloud & Backend Developer
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0">
-              Passionate Full-Stack Developer with expertise in AI, Cloud, and
-              Cybersecurity, Building scalable applications, intelligent
-              systems, and secure IT solutions to drive innovation
+            I design and build intelligent, scalable, and secure systems — from AI chatbots and workflow automation to computer vision models and cloud-native applications. Passionate about turning complex problems into smart, future-ready solutions.
             </p>
             <div className="flex justify-center lg:justify-start space-x-4 mb-8">
               <a

@@ -9,7 +9,12 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Zakaria Masood - Software Engineer | AI & Automation Specialist | Cloud & Backend Developer",
   description: "Portfolio of Zakaria Masood, a Software Engineer specializing in AI-driven solutions, cloud computing, and full-stack development.",
-  generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  }
 }
 
 export default function RootLayout({

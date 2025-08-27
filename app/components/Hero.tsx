@@ -134,8 +134,7 @@ export default function Hero() {
                 <Image
                   src="/zakaria_profile.png"
                   alt="Zakaria Masood"
-                  layout="intrinsic"
-                  width={384} // Match with container size
+                  width={384}
                   height={384}
                   className="object-cover rounded-2xl"
                   priority

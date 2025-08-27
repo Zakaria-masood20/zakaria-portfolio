@@ -110,7 +110,7 @@ export default function Hero() {
               </motion.button>
               {/* Download Resume Button */}
               <motion.a
-                href="/zakaria_dev.pdf" // Ensure the resume is inside the `public` folder
+                href="/zakaria_resume.pdf" // Ensure the resume is inside the `public` folder
                 download="Zakaria_Resume.pdf"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl"
                 whileHover={{ scale: 1.05 }}
